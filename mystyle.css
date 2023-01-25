@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body
+{
+    font-family: Roboto, sans-serif;
+    display:flex;
+    flex-direction:column;
+}
+
+.header,.footer
+{
+    background-color:#1F2937;
+}
+
+.logo>p
+{
+    font-size:24px;
+    font-weight:900;
+    color:#f9faf8;
+}
+
+.header_content h1
+{
+    font-size:48px;
+    font-weight: 900;
+    color:#f9faf8;
+}
+
+.logo ul,.header_content p,.placeholder,a
+{
+    font-size:18px;
+    color:#e5e7eb;
+}
+
+button,.actionCall
+{
+    border-radius: 9px;
+    background-color:#3882f6;
+    color:#e5e7eb;
+}
+
+button
+{
+  width:90px;
+  padding:8px;
+}
+
+.randomInfo h1
+{
+    font-size:36px;
+    font-weight: 900;
+    color:#1f2937;
+    text-align:center;
+}
+
+.quoting
+{
+    background-color:#e5e7eb;
+    font-size:36px;
+    font-weight:lighter;
+    color:#1f2937;
+    font-style: italic;
+    padding:140px;
+    text-align:center;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+a 
+{
+    text-decoration: none;
+}
+
+li
+{
+  display: inline;
+  padding:8px;
+}
+
+.logo,.content
+{
+   display:flex;
+   justify-content:space-around;
+}
+
+.placeholder
+{
+  align-self:center;
+  text-align:center;
+  background-color:#70A3CC;
+  border:solid 1px #1F2937;
+  margin:0;
+}
+
+.header_content,.placeholder
+{
+  width:460px;
+  padding:80px;
+}
+
+.illustrations
+{
+  display:flex;
+  justify-content:space-around;
+  margin-bottom:80px;
+}
+
+.illustrate
+{
+  width:180px;
+  text-align:center;
+}
+
+.blue
+{
+  width:40px;
+  padding:60px;
+  border-radius:10px;
+  border: 3px solid #3882f6;
+}
+
+.quoting p
+{
+  font-size:18px;
+  font-weight:bold;
+  padding:18px;
+  text-align:right;
+}
+
+.actionTime
+{
+  margin:auto;
+  padding:200px;
+}
+
+.actionCall
+{
+  padding:30px;
+  width:1000px;
+  display:flex;
+  justify-content:space-around;
+}
+
+.actionCall button
+{
+  border:solid 2px white;
+  border-radious:10px;
+  width:100px;
+  font-size:15px;
+  font-weight:bold;
+  align-self:center;
+}
+
+.footer
+{
+  padding:50px;
+  text-align:center;
+  color:white;
+  font-weight:bold;
+}
